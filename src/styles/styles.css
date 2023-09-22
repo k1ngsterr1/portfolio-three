@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  background: #8ecae6;
+}
+* body .custom-container-width {
+  width: 80%;
+}
+* body .dark-blue {
+  color: #023047;
+}
+* body .custom-yellow {
+  color: #ffb703;
+}
+* body .custom-orange {
+  color: #ffb703;
+}
+* body .my-link {
+  transition: 0.3s all;
+}
+* body .my-link:hover {
+  color: #ffb703;
+}/*# sourceMappingURL=styles.css.map */
