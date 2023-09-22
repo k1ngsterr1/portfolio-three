@@ -28,5 +28,6 @@
   transition: 0.3s all;
 }
 * body .my-link:hover {
+  font-size: 17px;
   color: #ffb703;
 }/*# sourceMappingURL=styles.css.map */
