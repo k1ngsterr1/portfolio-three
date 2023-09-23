@@ -7,9 +7,9 @@ import MainBlock from "./blocks/MainBlock";
 function App() {
   return (
     <div className="App">
-      <div className="container mx-auto  custom-container-width">
+      <div className=" mx-auto custom-container-width">
         <Header></Header>
-        <div className="container mx-auto bg-red-400">
+        <div className="w-full mx-auto ">
           <MainBlock></MainBlock>
         </div>
       </div>

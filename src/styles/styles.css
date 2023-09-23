@@ -10,7 +10,7 @@
   width: 100%;
   height: auto;
   font-family: "Montserrat", sans-serif;
-  background: #8ecae6;
+  background: white;
 }
 * body .custom-container-width {
   width: 80%;
@@ -28,6 +28,6 @@
   transition: 0.3s all;
 }
 * body .my-link:hover {
-  font-size: 17px;
+  font-size: 28px;
   color: #ffb703;
 }/*# sourceMappingURL=styles.css.map */

@@ -2,41 +2,55 @@ import React from "react";
 
 import { Link } from "react-scroll";
 import { FaCode } from "react-icons/fa";
+import { Bounce, Fade } from "react-awesome-reveal";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between ">
+    <header className="flex items-center justify-between mt-12 ">
       <div className="flex items-center">
-        <FaCode size={26} className="custom-orange"></FaCode>
-        <span className="font-bold text-lg dark-blue ml-2">
-          Ruslan Makhmatov
-        </span>
+        <Bounce delay={100}>
+          <FaCode size={48} className="custom-orange"></FaCode>
+        </Bounce>
+        <Bounce delay={200}>
+          <span className="font-bold text-3xl dark-blue ml-4">
+            Ruslan Makhmatov
+          </span>
+        </Bounce>
       </div>
+
       <nav className="flex items-center justify-between h-20 ">
-        <Link
-          to=""
-          className="text-sm font-bold dark-blue cursor-pointer my-link"
-        >
-          About Me
-        </Link>
-        <Link
-          to=""
-          className="text-sm font-bold dark-blue cursor-pointer my-link ml-6"
-        >
-          My Skills
-        </Link>
-        <Link
-          to=""
-          className="text-sm font-bold dark-blue cursor-pointer my-link ml-6"
-        >
-          Portfolio
-        </Link>
-        <Link
-          to=""
-          className="text-sm font-bold dark-blue cursor-pointer my-link ml-6"
-        >
-          Contacts
-        </Link>
+        <Bounce delay={400}>
+          <Link
+            to=""
+            className="text-2xl font-bold dark-blue cursor-pointer my-link"
+          >
+            About Me
+          </Link>
+        </Bounce>
+        <Bounce delay={600}>
+          <Link
+            to=""
+            className="text-2xl font-bold dark-blue cursor-pointer my-link ml-6"
+          >
+            My Skills
+          </Link>
+        </Bounce>
+        <Bounce delay={800}>
+          <Link
+            to=""
+            className="text-2xl font-bold dark-blue cursor-pointer my-link ml-6"
+          >
+            Portfolio
+          </Link>
+        </Bounce>
+        <Bounce delay={1000}>
+          <Link
+            to=""
+            className="text-2xl font-bold dark-blue cursor-pointer my-link ml-6"
+          >
+            Contacts
+          </Link>
+        </Bounce>
       </nav>
     </header>
   );
