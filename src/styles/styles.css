@@ -10,7 +10,7 @@
   width: 100%;
   height: auto;
   font-family: "Montserrat", sans-serif;
-  background: white;
+  background: #f4fdff !important;
 }
 * body .custom-container-width {
   width: 80%;
@@ -21,6 +21,9 @@
 * body .custom-yellow {
   color: #ffb703;
 }
+* body .custom-blue {
+  color: #219ebc;
+}
 * body .custom-orange {
   color: #ffb703;
 }
@@ -30,4 +33,19 @@
 * body .my-link:hover {
   font-size: 28px;
   color: #ffb703;
+}
+* body .btn {
+  background-color: #ffb703;
+  transition: 0.3s all;
+}
+* body .btn:hover {
+  background-color: #023047;
+  color: #ffb703;
+}
+* body .btn-blue {
+  background-color: #ffb703;
+  transition: 0.3s all;
+}
+* body .btn-blue:hover {
+  background-color: #219ebc;
 }/*# sourceMappingURL=styles.css.map */

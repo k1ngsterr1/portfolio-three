@@ -18,7 +18,7 @@ $orange: #ffb703
         width: 100%
         height: auto
         font-family: 'Montserrat', sans-serif
-        background: white
+        background: #f4fdff !important
 
         .custom-container-width
             width: 80%
@@ -29,6 +29,9 @@ $orange: #ffb703
         .custom-yellow
             color: $yellow
 
+        .custom-blue
+            color: $blue
+
         .custom-orange
             color: $orange
 
@@ -37,3 +40,16 @@ $orange: #ffb703
             &:hover
                 font-size: 28px
                 color: $orange
+
+        .btn
+            background-color: $orange
+            transition: 0.3s all
+            &:hover
+                background-color: $darkBlue
+                color: $orange
+
+        .btn-blue
+            background-color: $orange
+            transition: 0.3s all
+            &:hover
+                background-color: $blue
